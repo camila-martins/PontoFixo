@@ -37,6 +37,6 @@ int main( int argc,char **argv)
 
 # Conclusão e Observação
 
-Através do Gráfico.png é possível observar um comportamento oscilatório, o qual para x0=0.75 foi obtido 50 iteracoes e x0=1.50 foi obtido 60 iterações, e os dois valores de x0 converge para o mesmo valor (0.73095).
+Através do Gráfico.png, o qual obtive através salvando os dados nos arquivos dados1.dat e dados2.date logo plotando através do gnuplot, é possível observar um comportamento oscilatório, o qual para x0=0.75 foi obtido 50 iteracoes e x0=1.50 foi obtido 60 iterações, e os dois valores de x0 converge para o mesmo valor (0.73095).
 
 @thadeupenna
