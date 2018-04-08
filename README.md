@@ -1,15 +1,17 @@
 # PontoFixo
 
+Tarefa 2 - Métodos Numéricos 2
+
 # Código
 
-//Tarefa 2 - Métodos Numéricos 2//
-#include <stdio.h>//
-#include <math.h>//
-#include <stdlib.h>//
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 
 int SolucaoPontoFixo(double *x0, double prec)
 {
 	double x, dx, c=0;
+	
 	do
 	{
 		x=cos(*x0);
