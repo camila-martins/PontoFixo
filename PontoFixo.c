@@ -3,18 +3,19 @@
 #include <math.h>
 #include <stdlib.h>
 
-FILE *fp;
+//FILE *fp
 
 int SolucaoPontoFixo(double *x0, double prec)
 {
 	double x, dx, c=0;
-	fp=fopen("dados2.dat","w");
+	//fp=fopen("dados1.dat","w"); 
 	do
 	{
 		x=cos(*x0);
 		dx=fabs(x- *x0);
 		*x0=x;
-		fprintf(fp,"%g\n", *x0);
+		//fprintf(fp,"%g\n", *x0); salvei os valores de x0 no arquivo fp para ser mais fácil plotar o gráfico do valor de x0 em função do número de interações.
+		printf(""%g\n", *x0);
 		c=c+1;
 	}while(dx>prec);
 	fclose(fp);
