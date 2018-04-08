@@ -39,3 +39,4 @@ int main( int argc,char **argv)
 
 Através do Gráfico.png é possível observar um comportamento oscilatório, o qual para x0=0.75 foi obtido 50 iteracoes e x0=1.50 foi obtido 60 iterações, e os dois valores de x0 converge para o mesmo valor (0.73095).
 
+@thadeupenna
